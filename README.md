@@ -1,3 +1,42 @@
-If you want to use the model just go the link in the about section and then select model as best.pt or best.onxx. Currently the best.engine is not working due to the gpu limitations
--> Upload your image in which you have the drone and then select the confidence and click on generate after than.
--> Future scope : RealTime detection of drones and jets which might help in defence system to be more precise and accurately. 
+
+# Drone and Jet Detection using Deep Learning
+
+This project focuses on detecting drones (and in the future, jets) using a deep learning model. Users can upload an image containing a drone, set a confidence level, and generate detection results.
+
+---
+
+## How to Use
+
+1. Visit the link provided in the **About** section.
+2. Select the model file you want to use:
+
+   * `best.pt` — Recommended PyTorch model
+   * `best.onnx` — For ONNX runtime
+   * `best.engine` — Currently not supported due to GPU limitations
+3. Upload an image containing a drone.
+4. Set the desired confidence threshold.
+5. Click on **Generate** to view detection results.
+
+---
+
+## Future Scope
+
+* Implement real-time detection for drones and jets.
+* Enhance precision and accuracy to support defense and surveillance systems.
+
+---
+
+## Tech Stack
+
+* Python
+* PyTorch / ONNX
+* Computer Vision
+* Deep Learning
+
+---
+
+## Note
+
+If the `best.engine` model fails to run, use either `best.pt` or `best.onnx` due to current GPU limitations.
+
+---
